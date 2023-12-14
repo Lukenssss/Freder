@@ -14,7 +14,7 @@ const roboto = Roboto({
     subsets: ['latin'],
 })
 
-export default function Card({ url, id, title, price }: CardProps) {
+export default function Card({ url, id, title, price, width }: CardProps) {
     const router = useRouter()
 
     const formatter = new Intl.NumberFormat('es-AR', {
@@ -22,7 +22,7 @@ export default function Card({ url, id, title, price }: CardProps) {
         currency: 'ARS',
         minimumFractionDigits: 0,
     })
-    const finalPrice = formatter.format(price)
+    const finalPrice = formatter.format(price as number)
 
     return (
         <>
@@ -31,6 +31,7 @@ export default function Card({ url, id, title, price }: CardProps) {
             }} style={{
                 backgroundImage: `url('${url}')`,
                 backgroundSize: 'cover',
+                width: width,
             }} className={'items-center justify-center content-center flex w-full h-full cursor-pointer bg-white'}>
                 <div className={'absolute bottom-3 left-5'}>
                     <p style={roboto.style} className={'text-xs my-1'}>{title}</p>

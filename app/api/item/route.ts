@@ -1,12 +1,11 @@
 import { prisma } from '@/db/connect'
-import { config } from '@/extra/config'
 
 export async function POST(req: Request) {
     const { itemId } = await req.json()
 
     const item = await prisma.products.findUnique({
         where: {
-            urlId: itemId,
+            urlId: parseInt(itemId),
         },
     })
 

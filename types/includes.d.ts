@@ -5,10 +5,11 @@ type BoardProps = {
 }
 
 type CardProps = {
-    id: string;
-    url: string;
-    title: string;
-    price: number;
+    id: string | undefined;
+    url: string | undefined;
+    title: string | undefined;
+    price: number | undefined;
+    width: string | undefined;
 }
 
 type ItemProps = {

@@ -9,7 +9,7 @@ datasource db {
 
 model Products {
   id String @id @default(auto()) @db.ObjectId @map("_id") 
-  urlId String @unique
+  urlId Int @unique
   name String @unique
   price Int 
   description String

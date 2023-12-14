@@ -20,7 +20,7 @@ const nextConfig = {
     images: {
         remotePatterns: [
             {
-                hostname: 'cdn.discordapp.com',
+                hostname: 'freres.ar',
             },
             {
                 hostname: 'lh3.googleusercontent.com',
