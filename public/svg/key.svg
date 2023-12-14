@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" viewBox="0 0 22 25" fill="none" role="img" className="icon keyboard-button-icon">
+    <g filter="url(#filter0_d)">
+    <rect y="0.865234" width="22" height="22" rx="5" fill="white"></rect>
+    <path d="M9.72519 7.82638C9.461 7.5633 9.03265 7.5633 8.76846 7.82638C8.50426 8.08945 8.50426 8.51598 8.76846 8.77905L11.798 11.7958L8.76853 14.8124C8.50434 15.0755 8.50434 15.502 8.76853 15.7651C9.03273 16.0282 9.46107 16.0282 9.72526 15.7651L13.2233 12.2819C13.2266 12.2787 13.2299 12.2755 13.2332 12.2722C13.3199 12.1859 13.3781 12.082 13.4079 11.972C13.4087 11.9693 13.4094 11.9666 13.4101 11.9639C13.4677 11.7408 13.4087 11.494 13.2333 11.3193C13.2289 11.3149 13.2246 11.3107 13.2201 11.3065L9.72519 7.82638Z" fill="#9E9EA7"></path>
+    <rect x="0.5" y="1.36523" width="21" height="21" rx="4.5" stroke="#DBDADE"></rect>
+    </g>
+    <defs>
+    <filter id="filter0_d" x="0" y="0.865234" width="22" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+    <feOffset dy="2"></feOffset>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.858824 0 0 0 0 0.854902 0 0 0 0 0.870588 0 0 0 1 0"></feColorMatrix>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+    </filter>
+    </defs>
+</svg>
